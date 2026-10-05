@@ -2,7 +2,7 @@
  * Estratégia: cache-first para os arquivos do app (o conteúdo vive no localStorage),
  * network-first com fallback ao cache para navegação. */
 
-const VERSAO = 'execsaude-v2';
+const VERSAO = 'execsaude-v3';
 const ARQUIVOS = [
   './',
   './index.html',
@@ -20,6 +20,8 @@ const ARQUIVOS = [
   './js/questoes-exec-visa.js',
   './js/questoes-exec-licitacoes.js',
   './js/questoes-exec-portarias.js',
+  './js/questoes-exec-licitacoes-2.js',
+  './js/questoes-exec-portarias-2.js',
   './js/conteudo.js',
   './js/conteudo-executivo.js',
   './js/edital.js',

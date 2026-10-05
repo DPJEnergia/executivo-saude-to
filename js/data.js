@@ -13,6 +13,8 @@ import { QUESTOES_EXEC_SUS } from './questoes-exec-sus.js';
 import { QUESTOES_EXEC_VISA } from './questoes-exec-visa.js';
 import { QUESTOES_EXEC_LICITACOES } from './questoes-exec-licitacoes.js';
 import { QUESTOES_EXEC_PORTARIAS } from './questoes-exec-portarias.js';
+import { QUESTOES_EXEC_LICITACOES_2 } from './questoes-exec-licitacoes-2.js';
+import { QUESTOES_EXEC_PORTARIAS_2 } from './questoes-exec-portarias-2.js';
 
 /* Questões genéricas de Conhecimentos Específicos herdadas do banco-base que cabem no
    programa do Executivo em Saúde, com o item do edital a que se vinculam. As demais
@@ -39,7 +41,8 @@ const herdadas = [...QUESTOES_BASE, ...QUESTOES_TOCANTINS, ...QUESTOES_MODULO1]
 export const QUESTOES = [
   ...herdadas,
   ...QUESTOES_SUPERIOR,
-  ...QUESTOES_EXEC_SUS, ...QUESTOES_EXEC_VISA, ...QUESTOES_EXEC_LICITACOES, ...QUESTOES_EXEC_PORTARIAS
+  ...QUESTOES_EXEC_SUS, ...QUESTOES_EXEC_VISA, ...QUESTOES_EXEC_LICITACOES, ...QUESTOES_EXEC_PORTARIAS,
+  ...QUESTOES_EXEC_LICITACOES_2, ...QUESTOES_EXEC_PORTARIAS_2
 ];
 export { RESUMOS, FLASHCARDS, MAPAS } from './conteudo.js';
 export { EDITAL, CARGOS, CARGO_ALVO, disciplinasDoNivel, composicaoProva } from './edital.js';
@@ -47,7 +50,7 @@ export { EDITAL, CARGOS, CARGO_ALVO, disciplinasDoNivel, composicaoProva } from 
 /* Versão do banco de conteúdo. Ao subir este número, o store mescla no banco já
    salvo no dispositivo as questões e o material novos, sem apagar o que o
    administrador tiver cadastrado. A versão 1 é a primeira do app do Executivo em Saúde. */
-export const BANCO_VERSAO = 2;
+export const BANCO_VERSAO = 3;
 
 export const NIVEIS = [
   { id: 'iniciante', nome: 'Iniciante', peso: 1.6 },
