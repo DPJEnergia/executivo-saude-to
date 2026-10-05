@@ -1,0 +1,28 @@
+{
+  "name": "Executivo em Saúde – SES-TO",
+  "short_name": "Exec. Saúde",
+  "description": "Preparatório independente para o cargo de Executivo em Saúde (SES-TO): plano adaptativo, questões comentadas no estilo da banca, caderno de erros, revisão espaçada e simulados cronometrados.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#F4F7FB",
+  "theme_color": "#0B4F8A",
+  "categories": ["education", "productivity", "medical"],
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-180.png", "sizes": "180x180", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Meu plano de hoje", "short_name": "Plano", "url": "./index.html#plano" },
+    { "name": "Banco de questões", "short_name": "Questões", "url": "./index.html#questoes" },
+    { "name": "Caderno de erros", "short_name": "Erros", "url": "./index.html#erros" },
+    { "name": "Simulados", "short_name": "Simulados", "url": "./index.html#simulados" }
+  ]
+}
