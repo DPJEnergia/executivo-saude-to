@@ -238,13 +238,13 @@ export const RESUMOS_EXEC = [
     pontos: [
       "Consolida as normas de ações e serviços, como o padrão de potabilidade da água, o regulamento técnico de hemoterapia e o Programa Nacional de Segurança do Paciente.",
       "Água: controle da qualidade pelo responsável pelo abastecimento; vigilância pela autoridade de saúde pública (Vigiagua).",
-      "Sangue: doação voluntária, anônima, altruísta e não remunerada. O regulamento técnico foi redefinido pela Portaria GM/MS nº 11.685/2026 (vigente desde 30/09/2026), que mudou critérios de doadores, como a idade dos doadores de repetição: confira o texto novo antes de decorar números antigos.",
+      "Sangue (Portaria GM/MS nº 11.685/2026, vigente desde 30/09/2026): doação voluntária, anônima, altruísta e não remunerada; intervalos de 60 dias para homens (4/ano) e 90 para mulheres (3/ano); doador de repetição pode seguir após os 70 anos com avaliação clínica; primeira doação até cerca de 60 anos.",
       "Segurança do paciente: incidente é o evento que poderia ter causado ou causou dano; evento adverso é o incidente que resultou em dano.",
       "Segurança do paciente: identificação, higiene das mãos, cirurgia segura, medicamentos, quedas e lesão por pressão.",
     ],
     armadilhas: [
       "Inverter controle e vigilância da água.",
-      "Estudar critérios de doação pela norma antiga (Portaria nº 158/2016), revogada.",
+      "Dizer que acima de 70 anos ninguém pode doar (a regra mudou em 2026 para doadores de repetição).",
     ]
   },
   {
